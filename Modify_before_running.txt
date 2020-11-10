@@ -1,0 +1,11 @@
+You need to change the following:
+
+Email_Sender.py (send_email function):
+- insert the password of the gmail account that you want to send the email from (RECOMMEND to create a new account)
+- insert the e-mail address of the gmail account that you want to send the email from
+
+Collectors_Scrapper.py (main body):
+- insert the sender and receipient email addresses (in the message creation)
+
+TIP: the *.bat file can be used with the Windows Scheduler to run the script as often as you like
+Must change the paths in that file (python and script paths)
