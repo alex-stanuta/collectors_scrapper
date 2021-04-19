@@ -1,7 +1,8 @@
 You need to change the following:
 
 Email_Sender.py (send_email function):
-- insert the password of the gmail account that you want to send the email from (RECOMMEND to create a new account)
+- insert the password generated for this app from Gmail account that you want to send the email from 
+(RECOMMEND to create a new account and use 2-step authentification)
 - insert the e-mail address of the gmail account that you want to send the email from
 
 Collectors_Scrapper.py (main body):

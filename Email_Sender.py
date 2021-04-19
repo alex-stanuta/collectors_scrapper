@@ -1,5 +1,6 @@
 #Script for sending an email with the smtplib library and gmail account
 
+#emails.py
 #!/usr/bin/env python3
 
 import email.message
@@ -29,9 +30,9 @@ def generate_email(sender, recipient, subject, body, attachment_path = None):
 
 def send_email(message):
 	port = 465
-	password = "password"
+	password = "vqqozuwlckthncow"
 	context = ssl.create_default_context()
 	with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-		server.login("email@gmail.com", password)
+		server.login("devbotalex@gmail.com", password)
 		server.send_message(message)
 		server.quit()
